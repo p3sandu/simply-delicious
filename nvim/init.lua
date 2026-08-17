@@ -200,22 +200,16 @@ end
 -- guess-indent, gitsigns, which-key, colorscheme, todo-comments, mini modules
 -- ============================================================
 do
-	-- vim.pack.add({ gh("folke/tokyonight.nvim") })
-	-- ---@diagnostic disable-next-line: missing-fields
-	-- require("tokyonight").setup({
-	-- 	transparent = true,
-	-- 	styles = {
-	-- 		comments = { italic = false }, -- Disable italics in comments
-	-- 		keywords = { italic = false },
-	-- 	},
-	-- })
-	-- vim.cmd.colorscheme("tokyonight-night")
 
 	vim.pack.add({ gh("rebelot/kanagawa.nvim") })
 	require("kanagawa").setup({
-		theme = "dragon", -- Load "wave" theme
+		theme = "dragon",
+    commentStyle = { italic = false },
+    keywordStyle = { italic = false },
+    statementStyle = { bold = true },
+    typeStyle = {},
 		background = { -- map the value of 'background' option to a theme
-			dark = "dragon", -- try "dragon" !
+			dark = "dragon",
 			light = "lotus",
 		},
 		colors = {
@@ -245,19 +239,6 @@ do
 		},
 	})
 	vim.cmd("colorscheme kanagawa")
-
-	-- vim.pack.add({ gh 'WTFox/luna.nvim.git' })
-	-- require("luna").setup({
-	-- 	transparent = false,
-	-- 	accent = 1.0, -- 0-1, blends syntax accents toward grey_light; 1 = full color
-	-- 	plugins = {
-	-- 		all = true, -- enable every plugin integration unconditionally
-	-- 		auto = true, -- when plugins.all is false, autodetect via lazy.nvim
-	-- 	},
-	-- 	on_colors = function(colors) end,
-	-- 	on_highlights = function(highlights, colors) end,
-	-- })
-	-- vim.cmd("colorscheme luna")
 
 	-- See `:help gitsigns` to understand what each configuration key does.
 	-- Adds git related signs to the gutter, as well as utilities for managing changes

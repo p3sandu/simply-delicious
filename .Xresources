@@ -1,0 +1,91 @@
+! tango
+! *.color0:  #32344a
+! *.color1:  #f7768e
+! *.color2:  #9ece6a
+! *.color3:  #e0af68
+! *.color4:  #7aa2f7
+! *.color5:  #ad8ee6
+! *.color6:  #449dab
+! *.color7:  #787c99
+!
+! *.color8:  #444b6a
+! *.color9:  #ff7a93
+! *.color10: #b9f27c
+! *.color11: #ff9e64
+! *.color12: #7da6ff
+! *.color13: #bb9af7
+! *.color14: #0db9d7
+! *.color15: #acb0d0
+!
+! *.background: #000000
+! *.foreground: #a9b1d6
+! *.cursorColor: #a9b1d6
+
+! kanagawa
+*.color0:  #0d0c0c
+*.color1:  #c4746e
+*.color2:  #8a9a86
+*.color3:  #c4b28a
+*.color4:  #8ba4b0
+*.color5:  #a292a3
+*.color6:  #8ea4a2
+*.color7:  #c8c093
+
+*.color8:  #a6a086
+*.color9:  #e46876
+*.color10: #87a987
+*.color11: #e6c384
+*.color12: #7fb4ca
+*.color13: #938aa9
+*.color14: #7aa89f
+*.color15: #c8c093
+
+! *.background: #181616
+*.background: #000000
+*.foreground: #c8c093
+*.cursorColor: #c8c093
+
+! Scheme: Luna
+! Author: wtfox
+
+! *.background: #060606
+! *.foreground: #e4e4e8
+! *.cursorColor: #e4e4e8
+! *.selectionBackground: #404040
+! *.selectionForeground: #e4e4e8
+!
+! ! Special Colors
+! *.colorBD: #ffffff
+! *.colorUL: #75a1c7
+!
+! ! Black
+! *.color0: #000000
+! *.color8: #888888
+!
+! ! Red
+! *.color1: #e08585
+! *.color9: #e08585
+!
+! ! Green
+! *.color2: #6fbe80
+! *.color10: #6fbe80
+!
+! ! Yellow
+! *.color3: #c2916a
+! *.color11: #d9a35a
+!
+! ! Blue
+! *.color4: #75a1c7
+! *.color12: #8c9cb8
+!
+! ! Magenta
+! *.color5: #c4a8d6
+! *.color13: #c4a8d6
+!
+! ! Cyan
+! *.color6: #75a1c7
+! *.color14: #75a1c7
+!
+! ! White
+! *.color7: #c7c7c7
+! *.color15: #ffffff

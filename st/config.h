@@ -6,7 +6,7 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 static char *font =
-    "Dejavu Sans Mono:pixelsize=26:antialias=true:autohint=true";
+    "commitmono:pixelsize=26:antialias=true:autohint=true";
 #if FONT2_PATCH
 /* Spare fonts */
 static char *font2[] = {
@@ -65,7 +65,7 @@ char *vtiden = "\033[?6c";
 #endif
 
 /* Kerning / character bounding-box multipliers */
-static float chscale = 0.95;
+static float chscale = 1.0;
 static float cwscale = 1.0;
 
 /*

@@ -18,7 +18,7 @@ elif [[ $wm == "dwm" ]]; then
     /usr/lib/xdg-desktop-portal-gtk &
     sleep 1
     /usr/lib/xdg-desktop-portal &
-    lxpolkit &
+    # lxpolkit &
 
     dwmblocks &
     # sxhkd &

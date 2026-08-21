@@ -200,14 +200,37 @@ end
 -- guess-indent, gitsigns, which-key, colorscheme, todo-comments, mini modules
 -- ============================================================
 do
+	-- vim.pack.add({ gh("wtfox/jellybeans.nvim") })
+	-- require("jellybeans").setup({
+	-- 	transparent = false,
+	-- 	italics = false,
+	-- 	bold = false,
+	-- 	flat_ui = true, -- toggles "flat UI" for pickers
+	-- 	background = {
+	-- 		dark = "jellybeans", -- default dark palette
+	-- 		light = "jellybeans_light", -- default light palette
+	-- 	},
+	-- 	plugins = {
+	-- 		all = false,
+	-- 		auto = true, -- auto-detect installed plugins via lazy.nvim
+	-- 	},
+	-- 	on_highlights = function(highlights, colors) end,
+	-- 	on_colors = function(colors) end,
+	-- })
+	--
+	-- vim.cmd.colorscheme("jellybeans")
 
 	vim.pack.add({ gh("rebelot/kanagawa.nvim") })
+
 	require("kanagawa").setup({
 		theme = "dragon",
-    commentStyle = { italic = false },
-    keywordStyle = { italic = false },
-    statementStyle = { bold = true },
-    typeStyle = {},
+    compile = true,
+		transparent = true,
+		commentStyle = { italic = false },
+		functionStyle = { italic = false },
+		keywordStyle = { italic = false },
+		statementStyle = { bold = false, italic = false },
+		typeStyle = { italic = false },
 		background = { -- map the value of 'background' option to a theme
 			dark = "dragon",
 			light = "lotus",

@@ -32,12 +32,12 @@ bindkey '^R'      history-incremental-search-backward # Ctrl + R
 
 export EDITOR=nvim
 export winhome="/run/media/user/OS/Users/cat/"
-# export http_proxy="http://192.168.42.129:9090"
-# export https_proxy="http://192.168.42.129:9090"
-# export HTTP_PROXY="http://192.168.42.129:9090"
-# export HTTPS_PROXY="http://192.168.42.129:9090"
+export http_proxy="http://192.168.42.129:9090"
+export https_proxy="http://192.168.42.129:9090"
+export HTTP_PROXY="http://192.168.42.129:9090"
+export HTTPS_PROXY="http://192.168.42.129:9090"
 
-# alias uns="unset http_proxy https_proxy HTTP_PROXY HTTPS_PROXY"
+alias uns="unset http_proxy https_proxy HTTP_PROXY HTTPS_PROXY"
 alias neo="fastfetch --config examples/13.jsonc"
 alias autorm="sudo pacman -Rns $(pacman -Qdtq)"
 alias ls='ls --color=auto'

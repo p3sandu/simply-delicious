@@ -1224,7 +1224,9 @@ ResourcePref resources[] = {
 #endif // XRESOURCES_PATCH
 
 #define HWKEYS
+/* maim -s /tmp/shot.png && satty --filename /tmp/shot.png */
 static const char *screenshotcmd[] = { "/home/user/.local/bin/screenshot.sh", NULL };
+
 static const char *volupcmd[]   = { "pactl", "set-sink-volume", "@DEFAULT_SINK@", "+1%", NULL };
 static const char *voldowncmd[] = { "pactl", "set-sink-volume", "@DEFAULT_SINK@", "-1%", NULL };
 static const char *volmutecmd[] = { "pactl", "set-sink-mute", "@DEFAULT_SINK@", "toggle", NULL };
